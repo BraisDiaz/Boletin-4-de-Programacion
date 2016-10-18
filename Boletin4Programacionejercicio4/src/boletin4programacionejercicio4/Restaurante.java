@@ -24,12 +24,12 @@ public void añadirPatatas (int patat){
     patatas = patatas + patat;
 }
 public void mostrarPulpo(){
-    System.out.println("Hay " + pulpo + "kilos de pulpo en el almacén");
+    System.out.println("Hay " + pulpo + " kilos de pulpo en el almacén");
 }
 public void mostrarPatatas(){
-    System.out.println("Hay" + patatas + "kilos de patatas en el almacén");
+    System.out.println("Hay " + patatas + " kilos de patatas en el almacén");
 }
 public void mostrarClientes(){
-    System.out.println("Se pueden atender"+(pulpo*3)/2 + "clientes");
+    System.out.println("Se pueden atender "+ (((pulpo*3)/2) + (patatas*3))/2 + "clientes");
 }
 }

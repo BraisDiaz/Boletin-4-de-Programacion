@@ -14,8 +14,11 @@ public class Boletin4Programacionejercicio4 {
        
     Restaurante mesa1 = new Restaurante(2,1);
     
+    mesa1.mostrarPulpo();
+    mesa1.mostrarPatatas();
     mesa1.mostrarClientes();
     }
+    
     
     
 }
