@@ -20,9 +20,11 @@ public class Coche {
         frenado = menos;
    }
     public int getVelocidade(){
-        return aceleracion - frenado;
+        return velocidad + aceleracion - frenado;
     }
-  
+    public void setVelInicial(int vel){
+        velocidad = vel;
+    }
     public void acelerar (int valor){
         aceleracion = valor;
     }

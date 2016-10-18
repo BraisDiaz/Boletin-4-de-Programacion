@@ -13,7 +13,7 @@ public class Boletin4Programacion {
         //creamos el objeto de la clase Coche llamado testeo
         Coche testeo = new Coche();
         //damos valores al objeto
-        
+         testeo.setVelInicial(30);
          testeo.acelerar(30);
          testeo.frenar(10);
      
